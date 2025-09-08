@@ -3,6 +3,7 @@ This repository contains all code and materials required to reproduce the analys
 
 ****Repository Structure****
 
+
 **code1.py**
 
 Cleans the raw OpenAlex article data
@@ -32,3 +33,13 @@ Provides descriptive statistics on dyads
 Generates visualizations (heatmaps, scatter plots, LOWESS curves)
 
 Exports subgroup-level QAP results (by institution)
+
+
+**Data Requirements**
+
+The scripts assume access to a dataset of academic articles (collected from OpenAlex) with the following files prepared:
+
+raw-data-articles.csv – **raw article metadata**
+
+
+**Due to data policy, raw datasets are not included here. Users should obtain OpenAlex data independently.**
