@@ -1,8 +1,9 @@
 # ERP-Project-Additional-Materials
 This repository contains all code and materials required to reproduce the analysis for my MSc Data Science (Social Research) ERP project: “Cultural Homophily and Academic Collaboration: A Socio-Semantic Network Analysis.”
 
-**Repository Structure**
-code1.py
+****Repository Structure****
+
+**code1.py**
 
 Cleans the raw OpenAlex article data
 
@@ -12,7 +13,7 @@ Builds the full co-authorship matrix and exports key mapping files
 
 Generates .csv and .vna files for network construction
 
-code2.py
+**code2.py**
 
 Computes semantic similarity between authors using Sentence-Transformers embeddings
 
@@ -22,7 +23,7 @@ Integrates co-authorship, semantic, and institutional affiliation into a multila
 
 Outputs edge lists and node attributes for visualization (e.g., NetDraw, Gephi)
 
-code3.py
+**code3.py**
 
 Performs QAP correlation and regression analysis on co-authorship vs. semantic and institutional networks
 
