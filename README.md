@@ -43,3 +43,32 @@ raw-data-articles.csv – **raw article metadata**
 
 
 **Due to data policy, raw datasets are not included here. Users should obtain OpenAlex data independently.**
+
+
+**Dependencies**
+
+Install the required Python packages:
+
+pip install pandas numpy scikit-learn tqdm sentence-transformers torch torchvision torchaudio networkx seaborn statsmodels matplotlib
+
+**How to Run**
+
+Run code1.py to clean raw data and build the co-authorship matrix.
+
+Run code2.py to compute semantic similarity and construct multilayer networks.
+
+Run code3.py to perform QAP regression, descriptive analysis, and generate figures.
+
+Each script will output .csv and .png files into the dataset folder.
+
+
+
+**Outputs**
+
+Matrices: semantic_similarity_matrix.csv, complete_coauthorship_matrix.csv
+
+Edge/Node files: semantic_similarity_edges.csv, node_affiliations.csv
+
+Figures: heatmaps, scatter plots, final multilayer network visualization
+
+Statistical results: subgroup-level QAP correlations and regression outputs
